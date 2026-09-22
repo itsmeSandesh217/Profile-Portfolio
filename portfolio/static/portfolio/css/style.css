@@ -164,20 +164,66 @@ font-weight: 600;
 color: #5555ff;
 }
 
-.hero-card {
-padding: 45px 30px;
-text-align: center;
-border: 1px solid #e5e5e5;
-border-radius: 15px;
-background: #fafafa;
+ 
+.profile-card {
+  padding: 45px 30px;
+  text-align: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 15px;
+  background: #fafafa;
 }
+
+.avatar-section {
+  margin-bottom: 25px;
+}
+
+.avatar-circle {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  background: #a75e5e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.character-wrapper {
+  margin-top: 15px;
+}
+
+.male-character {
+  max-width: 100%;
+  height: auto;
+}
+
+.portfolio-role {
+  color: #777;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.portfolio-name {
+  font-size: 16px;
+}
+
+.portfolio-name span {
+  color: #5555ff;
+}
+
+
+
+
 
 .profile-circle {
 width: 150px;
 height: 150px;
 margin: auto auto 25px;
 border-radius: 50%;
-background: #171717;
+background: #a34e4e;
 color: white;
 display: flex;
 justify-content: center;
@@ -283,7 +329,7 @@ transition: 0.3s;
 
 .skill-card:hover {
 transform: translateY(-5px);
-border-color: #5555ff;
+border-color: #2c1f9c;
 }
 
 .skill-number {

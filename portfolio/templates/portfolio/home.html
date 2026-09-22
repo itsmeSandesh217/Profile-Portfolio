@@ -107,26 +107,40 @@
 
             </div>
 
-
-            <div class="hero-card">
-
-                <div class="profile-circle">
-                    ST
+            {% load static %}
+            <!--your profile card section-->
+            
+            <div class="profile-card">
+                <div class="avatar-section">
+                    <div class="avatar-circle">
+                        <span>ST</span>
+                    </div>
+                    </div>
+                <div>
+                    <div class="character-wrapper">
+                        <img src="{% static 'portfolio/images/man-character.png' %}"
+     alt="Sandesh Thapa" class="male-character">
+                    </div>
                 </div>
-
-                <p>
-                    BCA Student
-                </p>
-
-                <h3>
-                    Python • Django • Web
+                <p class="portfolio-role">BCA Student</p>
+                <h3 class="portfolio-name">
+                    Python<span>/</span>  Django<span> -Web </span>
                 </h3>
-
+                </div>
             </div>
+
+    
 
         </div>
 
     </section>
+    <!--</div>
+                <div>
+                    <div class="character-wrapper">
+                        <img src="{%static 'portfolio/images/male-character.png' %}" alt="Sandesh Thapa" class="male-character">
+                    </div>
+                </div>
+                <p>-->
 
 
     <!-- ================= ABOUT ================= -->
@@ -569,12 +583,11 @@
                     codxyz217@gmailcom
                 </a>
 
-                <a href="#" target="_blank">
-                   https://github.com/itsmeSandesh217
-                </a>
+                <a href="https://github.com/itsmeSandesh217" target="_blank">
+                    Itsmesandesh217</a>
 
-                <a href="#" target="_blank">
-                    Sandesh Thapa
+                <a href="https://www.linkedin.com/in/sandesh-thapa-7b079033a/" target="_blank">
+                    Linkdin Profile
                 </a>
 
             </div>
